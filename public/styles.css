@@ -1,0 +1,32 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid white;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+ul {
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+li {
+  padding-right: 20px;
+  padding-left: 20px;
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: blue;
+}
+
+.footer {
+  margin: auto;
+  position: relative;
+  padding-top: 50px;
+  align-items: center;
+  text-align: center;
+}
